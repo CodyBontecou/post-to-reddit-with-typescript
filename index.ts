@@ -23,4 +23,9 @@ function postLink(title: string, link: string, subreddit: string) {
   })
 }
 
-postLink('Testing', 'https://codybontecou.com', 'hotspringers')
+const url =
+  'https://codybontecou.com/post-to-reddit-with-nodejs-and-typescript.html'
+const title = 'Post to Reddit using its API'
+const subreddits = ['webdev', 'learnjavascript', 'typescript', 'programming']
+
+subreddits.forEach(subreddit => postLink(title, url, subreddit))
