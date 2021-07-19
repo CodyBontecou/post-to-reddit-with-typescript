@@ -1,4 +1,3 @@
-const axios = require('axios')
 const snoowrap = require('snoowrap')
 require('dotenv').config()
 
